@@ -26,11 +26,10 @@
 
         <!-- https://mvnrepository.com/artifact/faker/faker -->
         <dependency>
-            <groupId>faker</groupId>
-            <artifactId>faker</artifactId>
-            <version>0.3.2</version>
+            <groupId>com.github.javafaker</groupId>
+            <artifactId>javafaker</artifactId>
+            <version>0.12</version>
         </dependency>
-
 
     </dependencies>
 

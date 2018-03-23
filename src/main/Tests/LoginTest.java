@@ -16,9 +16,9 @@ public class LoginTest extends BaseTest{
         driver.get(page.data.baseURL);
 
         Thread.sleep(3000);
-        page.examplePage.loginEmail().sendKeys(page.data.email);
+        page.examplePage.loginEmail().sendKeys(page.data.email2);
 
-        page.examplePage.loginPass().sendKeys(page.data.pass);
+        page.examplePage.loginPass().sendKeys(page.data.NewPass);
 
         page.examplePage.loginButton().click();
 

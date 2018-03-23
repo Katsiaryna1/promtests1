@@ -20,6 +20,7 @@ public class ExamplePage extends BasePage{
 
 
     public WebElement loginButton(){
+
         return driver.findElement(By.xpath("//*[@id=\"login\"]"));
     }
 
